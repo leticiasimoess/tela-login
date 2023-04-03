@@ -1,0 +1,124 @@
+/* geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body{
+    background-image: url(../img/background-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a,label {
+    font-size: .9rem; 
+}
+
+a:hover {
+    color: #063d2d;
+}
+
+/* container login */
+
+#login-container {
+    background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 40px;
+    margin-top: 20vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* formulário */
+
+form {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 3px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #b3410c;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: #b3410c;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #1b223c;
+    transition: .6s;
+}
+
+/* redes sociais */
+
+#social-container, #social-container p {
+    margin-bottom: 30px;
+}
+
+#social-container i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f{
+    background-color:#b3410c;
+}
+
+.fa-linkedin{
+    background-color: #b3410c;
+}
+
+/* registar */
+
+#register-container p {
+    margin-bottom: 15px;
+}
